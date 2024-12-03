@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ORDER_MATERIAL_HANDLER</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Sipariş ve malzeme bilgilerini işleme</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MATERIAL_INFO</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Malzeme Bilgilerini Döndürme</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ORDER_INFO</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Sipariş Bilgilerini Döndürme</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MATERIAL_INFO</CMPNAME>
+     <SCONAME>ET_MATERIAL_DATA</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>MATERIAL DATA</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MATERIAL_INFO</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Malzeme numarası</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ORDER_INFO</CMPNAME>
+     <SCONAME>ET_ORDER_DATA</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Sipariş Bilgileri Tablosu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ORDER_INFO</CMPNAME>
+     <SCONAME>IR_EBELN</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Satınalma belge numarası</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ORDER_INFO</CMPNAME>
+     <SCONAME>IR_LIFNR</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Satıcının hesap numarası</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ORDER_INFO</CMPNAME>
+     <SCONAME>IR_MATNR</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Malzeme numarası</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
